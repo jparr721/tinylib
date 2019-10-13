@@ -1,0 +1,11 @@
+version: '3'
+services:
+  nanokey:
+    image: jparr721/nanokey
+    volumes:
+      - nanokey:/usr/src/app/smol
+    ports:
+      - 6900:6900
+
+volumes:
+  nanokey:
